@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/HindiText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Shayri"
+        android:textColor="@color/white_transparency"
+        android:textSize="20sp"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/EnglishText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white_transparency"
+        android:background="@drawable/button_background"
+        android:text="Poems"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/thought"
+        android:layout_width="250dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white_transparency"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background"
+        android:text="Thought of The Day"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         />
+
+    <Button
+        android:id="@+id/self"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="162dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white_transparency"
+        android:background="@drawable/button_background"
+        android:text="SELF WRITTEN"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         />
+
+
+</LinearLayout>

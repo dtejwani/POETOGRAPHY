@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="For_Hindi">#FFC107</color>
+    <color name="For_thought">#118BC2</color>
+    <color name="white_transparency">#DCFFFFFF</color>
+    <color name="just">#0F0F0F</color>
+</resources>
